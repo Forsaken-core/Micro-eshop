@@ -1,0 +1,80 @@
+.categoryContent {
+	position: absolute;
+	display: flex;
+	width: 100%;
+	top: 0px;
+	bottom: 53px;
+	background: #ffffff;
+}
+
+.categoryLeft {
+	display: flex;
+	flex-direction: column;
+	width: 100px;
+	height: 100%;
+	text-align: center;
+	overflow: auto;
+	background: #f7f7f7;
+}
+
+.categoryLeftItem {
+	font-family: '微软雅黑';
+	height: 40px;
+	line-height: 40px;
+	padding: 5px 10px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+.categoryLeftItemChoose {
+	background: #ffffff;
+}
+
+.categoryRight {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	height: 100%;
+	background: #ffffff;
+	overflow: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.categoryRightTitle {
+	display: flex;
+	padding: 5px 0;
+	margin-top: 10px;
+}
+
+.categoryRightList {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.categoryRightItem {
+	display: flex;
+	width: 30%;
+	text-align: left;
+	background: #ffffff;
+	justify-content: space-between;
+	margin-left: 2.5%;
+	margin-top: 10px;
+	text-align: center;
+	flex-direction: column;
+}
+
+.categoryRightItem img {
+	width: 100%;
+	max-width: 85px;
+	max-height: 85px;
+}
+
+.categoryRightItem div {
+	text-align: center;
+	margin-top: 5px;
+}
+
+.categoryLeftItem:HOVER {
+	color: blue;
+}

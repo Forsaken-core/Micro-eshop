@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<title>微商城</title>
+		<link rel="stylesheet" href="css/jquery-weui.css">
+		<link rel="stylesheet" href="css/weui.css">
+		<link rel="stylesheet" href="css/common.css">
+		<link rel="stylesheet" href="css/login.css">
+		<script src="js/jquery-2.2.3.min.js"></script>
+		<script src="js/jquery-weui.js"></script>
+		<script src="js/login.js"></script>
+	</head>
+
+	<body>
+		<form action="FrontLogin.do" method="post">
+			<div class="weui-cells weui-cells_form">
+				<div class="weui-cell">
+					<div class="weui-cell__hd">
+						<label class="weui-label">用户号</label>
+					</div>
+					<div class="weui-cell__bd">
+						<input class="weui-input" name="username" placeholder="请输入账号">
+					</div>
+				</div>
+				<div class="weui-cell">
+					<div class="weui-cell__hd">
+						<label class="weui-label">密码</label>
+					</div>
+					<div class="weui-cell__bd">
+						<input class="weui-input" type="password" name="password" placeholder="请输入密码">
+					</div>
+				</div>
+				<!-- 登陆成功跳转me，失败则从url传入一个a=wrong的参数 -->
+				
+			</div>
+			<a href="register.html" class="weui-cell weui-cell_link"><div class="weui-cell__bd">没有账户？点击此处</div>
+  </a>
+			<input class="weui-input" name="password" value="" style="color: red; font-weight: bolder; font-family: '黑体'; width: 100%; font-size: 18px; text-align: center;" />
+
+			<button type="submit" class="weui-btn weui-btn_primary" style="width: 90%; margin-top: 20px;">登录</button>
+		</form>
+	</body>
+
+</html>

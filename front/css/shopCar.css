@@ -1,0 +1,201 @@
+/*.titleBar {*/
+
+/*display: flex;*/
+
+/*height: 44px;*/
+
+/*background: #ffffff;*/
+
+/*border-bottom: 1px solid rgba(0, 0, 0, 0.1);*/
+
+/*justify-content: center;*/
+
+/*align-items: center;*/
+
+/*padding: 0px 5px;*/
+
+/*}*/
+
+/*.titleBarBack, .titleBarBtn {*/
+
+/*width: 35px;*/
+
+/*height: 35px;*/
+
+/*background: #ff0000;*/
+
+/*}*/
+
+/*.titleBarTitle {*/
+
+/*display: flex;*/
+
+/*flex: 1;*/
+
+/*background: #ffffff;*/
+
+/*justify-content: center;*/
+
+/*align-items: center;*/
+
+/*}*/
+.titleBar {
+	display: flex;
+	height: 44px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	justify-content: center;
+	align-items: center;
+	style ="background: #EAEAEA; "
+	padding: 0px 5px;
+}
+
+.title {
+	font-size: 18px;
+	font-family: "微软雅黑"
+}
+
+.shopCarList {
+	display: flex;
+	flex-direction: column;
+	padding-top: 44px;
+}
+
+.shopCarItem {
+	display: flex;
+	background: #ffffff;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	align-items: center;
+	padding: 10px 0px;
+}
+
+.itemPic {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 5px;
+}
+
+.itemPic img {
+	width: 80px;
+	height: 80px;
+}
+
+.shopCarItemInfo {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	margin-right: 10px;
+}
+
+.shopCarItemInfoName {
+	display: flex;
+	overflow: hidden;
+	font-size: 14px;
+	height: 34px;
+	line-height: 18px;
+}
+
+.shopCarItemInfoPrice {
+	display: flex;
+	font-size: 14px;
+	color: #EF3338;
+	margin-top: 10px;
+}
+
+.shopCarItemInfoTools {
+	display: flex;
+	margin-top: 10px;
+}
+
+.shopCarItemInfoToolsInput {
+	display: flex;
+	flex: 1;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	height: 25px;
+	text-align: center;
+}
+
+.shopCarItemInfoToolsAdd, .shopCarItemInfoToolsReduce {
+	width: 25px;
+	height: 25px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+.shopCarItemInfoToolsNumber {
+	display: flex;
+	flex: 1;
+	margin-right: 50px;
+}
+
+.shopCarItemInfoToolsRemove {
+	width: 25px;
+	height: 25px;
+	margin-right: 10px;
+}
+
+.shopCarTools {
+	display: flex;
+	height: 50px;
+	background: #4F4F4F;
+	position: fixed;
+	bottom: 53px;
+	right: 0px;
+	left: 0px;
+	align-items: center;
+}
+
+.shopCarToolsLeft {
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+}
+
+.shopCarToolsMain {
+	display: flex;
+	flex: 1;
+	height: 40px;
+	margin: 0px 10px;
+	color: #ffffff;
+	line-height: 40px;
+}
+
+.shopCarToolsRight {
+	width: 100px;
+	height: 40px;
+	margin-right: 10px;
+	background: #EF3338;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 40px;
+	color: #ffffff;
+}
+
+.shopCarItemChoose {
+	display: flex;
+	width: 30px;
+	height: 30px;
+	margin-right: 5px;
+}
+
+.shopCarItemChoose {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 15px;
+}
+
+.shopCarToolsLeftChecked, .shopCarItemChooseed {
+	display: none;
+	width: 100%;
+	height: 100%;
+	background: #f00;
+	border-radius: 15px;
+}
+
+.shopCarToolsLeftUnchecked, .shopCarItemUnchoose {
+	width: 100%;
+	height: 100%;
+	background: #ffffff;
+	display: flex;
+	border-radius: 15px;
+}
